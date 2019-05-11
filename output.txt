@@ -1,0 +1,27 @@
+icg main:
+L0:
+if a < b goto L1
+goto G0
+ 
+L1
+	L2:
+	if z > c goto L3
+	goto G1
+	 
+	L3
+
+	t0 = a-d
+	c = t0
+
+
+	t1 = b+c
+	a = t1
+
+	gotoL2
+	G1
+
+	gotoL0
+G0
+
+
+Parsing successful!

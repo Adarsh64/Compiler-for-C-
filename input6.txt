@@ -1,0 +1,17 @@
+#include <stdio.h>
+int a = 11;
+int main()
+{
+	while (a > 10)
+	{
+		a = a + 1;
+	}
+	
+
+	int c = 10;
+
+	while (a > 10)
+	{
+		a = a + 1;
+	}
+}
