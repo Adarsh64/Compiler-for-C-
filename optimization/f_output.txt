@@ -1,0 +1,18 @@
+main:
+int a = 5,b = 3
+ 
+t0 = a < 1
+
+if t0 goto L0
+goto L1
+L0:
+
+t1 = a - 1
+a = t1
+
+L1:
+b = 1
+
+G0:
+
+
